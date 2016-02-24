@@ -1,0 +1,14 @@
+作用：
+在执行main方法之前，通过java agent就可以不用修改原有的java程序代码，通过agent的形式来修改或者增强程序了，或者做热启动等等。
+
+参考地址：
+http://www.javabeat.net/introduction-to-java-agents/
+
+执行：
+进入到jar目录下，运行命令
+java -classpath C:\Users\Administrator\Desktop\JavaAgent-Introduction\lib\asm-all-3.3.1.jar -javaagent:statistics-agent.jar net.javabeat.articles.javaagent.statistics.StatisticsMain
+
+java -classpath C:\Users\Administrator\Desktop\JavaAgent-Introduction\lib\asm-all-3.3.1.jar -javaagent:statistics-agent.jar net.javabeat.articles.javaagent.statistics.StatisticsClassTransformer
+
+
+
