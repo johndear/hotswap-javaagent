@@ -7,8 +7,16 @@ http://www.javabeat.net/introduction-to-java-agents/
 执行：
 进入到jar目录下，运行命令
 java -classpath C:\Users\Administrator\Desktop\JavaAgent-Introduction\lib\asm-all-3.3.1.jar -javaagent:statistics-agent.jar net.javabeat.articles.javaagent.statistics.StatisticsMain
-
 java -classpath C:\Users\Administrator\Desktop\JavaAgent-Introduction\lib\asm-all-3.3.1.jar -javaagent:statistics-agent.jar net.javabeat.articles.javaagent.statistics.StatisticsClassTransformer
+
+
+参考资料：
+Instrumentation 功能介绍（javaagent）
+http://blog.csdn.net/zhyhang/article/details/17027441
+Java 5 特性 Instrumentation 实践
+http://www.ibm.com/developerworks/cn/java/j-lo-instrumentation/
+javaagent加载机制分析
+http://nijiaben.iteye.com/blog/1847212
 
 
 
